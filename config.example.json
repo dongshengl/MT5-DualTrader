@@ -1,0 +1,22 @@
+{
+    "MT5_ACCOUNT_FILTER": 0,
+    "SYMBOL": "XAUUSDm",
+    "TIMEFRAME": "M5",
+    "MA_PERIOD": 28,
+    "LOT_SIZE": 0.01,
+    "ORDER_INTERVAL_SEC": 60,
+    "TAKE_PROFIT_USD": 30.0,
+    "STOP_LOSS_USD": 5000.0,
+    "STRATEGY_MODE": "shunshi",
+    "ORDER_DIRECTION": "both",
+    "AUTO_MODE": true,
+    "ADX_PERIOD": 14,
+    "ADX_RANGE_MAX": 20,
+    "ADX_TREND_MIN": 25,
+    "RSI_PERIOD": 14,
+    "RSI_OVERBOUGHT": 70,
+    "RSI_OVERSOLD": 30,
+    "BAND_WIDTH": 0.15,
+    "RSI_TREND_OB": 75,
+    "RSI_TREND_OS": 25
+}
