@@ -1,0 +1,68 @@
+name: Bug 反馈
+description: 报告运行中的错误或异常行为
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈！请尽量填写下面的信息，方便快速定位问题。
+        ⚠️ 请勿在此粘贴 MT5 账号、密码、订单号等任何隐私信息。
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 问题现象
+      description: 具体发生了什么？期望的行为是什么？
+      placeholder: 点击"全部平仓"后程序无反应，日志显示"未找到 MT5 窗口"
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 复现步骤
+      description: 怎么操作能重现这个问题？
+      placeholder: |
+        1. 启动 service.py
+        2. 启动 gui_dual.py
+        3. 点击"全部平仓"
+        4. 出现错误
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: 相关日志
+      description: service.log 或 GUI 日志中的报错（记得删除账号等敏感信息）
+      render: shell
+
+  - type: input
+    id: env-os
+    attributes:
+      label: 操作系统
+      placeholder: Windows 11 23H2
+    validations:
+      required: true
+
+  - type: input
+    id: env-py
+    attributes:
+      label: Python / 运行方式
+      placeholder: Python 3.11 源码运行 / PyInstaller 打包 exe
+    validations:
+      required: true
+
+  - type: input
+    id: env-broker
+    attributes:
+      label: MT5 经纪商与品种（可选）
+      placeholder: 例如 Exness，品种 XAUUSDm
+
+  - type: checkboxes
+    id: ai-check
+    attributes:
+      label: AI 参与说明
+      options:
+        - label: 我理解本项目由 AI 参与编写，描述已尽量准确
