@@ -8,6 +8,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- FAQ (`FAQ.md`) covering smart-close thresholds, MT5 window requirements,
+  RDP boundaries, demo-account testing, and configuration safety
 - English documentation (`README_EN.md`) with a language switcher on both READMEs
 
 ### Changed

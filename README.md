@@ -104,9 +104,9 @@ pyinstaller scripts/MT5自动交易.spec
 
 完整示例见 [config.example.json](config.example.json)。
 
-## 用 AI 改进本项目
+## 常见问题
 
-本项目由 AI 在用户的自然语言指导下编写调试。欢迎把自己的需求交给任意 AI 助手，附上本 README 和源码即可快速上手修改；欢迎提交 PR 并注明 AI 参与情况。
+见 [FAQ](FAQ.md)，其中说明了智能平仓阈值、MT5 窗口要求、RDP 断开后的运行边界，以及模拟盘验证建议。
 
 ## License
 

@@ -105,9 +105,9 @@ pyinstaller scripts/MT5自动交易.spec
 
 See [config.example.json](config.example.json) for a full example.
 
-## Using AI to improve this project
+## FAQ
 
-This project was written and debugged by AI under the user's natural-language direction. Feel free to hand your own requirements to any AI assistant together with this README and the source; PRs are welcome, please note any AI involvement.
+See [FAQ](FAQ.md) for details about the smart-close threshold, MT5 window requirements, the limits of RDP-disconnected operation, and demo-account testing recommendations.
 
 ## License
 
